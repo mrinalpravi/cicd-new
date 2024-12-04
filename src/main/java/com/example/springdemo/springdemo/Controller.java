@@ -11,7 +11,7 @@ public class Controller {
     }
 
     @GetMapping("/greet")
-    public String getHello() {
+    public String getGreet() {
         return "Good Morning";
     }
 
